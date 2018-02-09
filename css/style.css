@@ -29,7 +29,7 @@ h3 span {color:#a80002}
 p {padding-bottom:24px}
 /* header */
 header {height:121px;padding-top:31px;width:100%;overflow:hidden}
-#logo {display:block;background:url(../images/logo.png) 0 0 no-repeat;width:259px;height:94px;text-indent:-9999px}
+#logo {display:block;background:url(../images/samurai.png) 0 0 no-repeat;width:259px;height:94px;text-indent:-9999px}
 #menu {width:633px;float:right;padding:0 0 0 40}
 #menu li {float:left;padding-left:3px}
 #menu li a {display:block;font-size:16px;color:#faf3ed;line-height:40px;padding:0 20px;height:44px;letter-spacing:-1px}
