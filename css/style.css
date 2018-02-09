@@ -5,19 +5,19 @@ mark, rp, rt, ruby, summary, time {display:inline}
 .left {float:left}
 .right {float:right}
 .wrapper {width:100%;overflow:hidden}
-.wrap{overflow:hidden;width:965px;margin-left:-5px;padding-left:5px}
+.wrap{overflow:hidden;width:965px;margin-left:-5px;padding-left:5px;border = "2";}
 /* Global properties */
 body {background:url(../images/bg_bot.jpg) center 0 repeat #faf3ed;border:0;font-family: MyCustomFont, Arial, Helvetica, sans-serif; color:#200;line-height:24px}
 .ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
 .css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
 /* Global Structure */
 .main {	margin:0 auto;	width:960px}
-.body1 {background:url(../images/bg_top_img.jpg) top center no-repeat}
-.body2 {background:#faf3ed} 
-.body3 {background:url(../images/bg_bot.jpg) top center repeat}
-.body4 {background:url(../images/bg_bot_img.jpg) top center no-repeat}
+.body1 {background:url(../images/Redone.jpg) top center no-repeat}
+.body2 {background:#faf3ed}
+.body3 {background:url(../images/Redone.jpg) top center repeat}
+.body4 {background:url(../images/Redone.jpg) top center no-repeat}
 .body5 {background:url(../images/slider_shadow.png) center 508px no-repeat}
-.body6 {background:url(../images/bg_top.jg) top repeat-x}
+.body6 {background:url(../images/Redone.jg) top repeat-x}
 /* main layout */
 a {color:#a80002;text-decoration:none;outline:none}
 a:hover {text-decoration:underline}
@@ -29,7 +29,7 @@ h3 span {color:#a80002}
 p {padding-bottom:24px}
 /* header */
 header {height:121px;padding-top:31px;width:100%;overflow:hidden}
-#logo {display:block;background:url(../images/logo.png) 0 0 no-repeat;width:259px;height:94px;text-indent:-9999px}
+#logo {display:block;background:url(../images/samurai.png) 0 0 no-repeat;width:259px;height:94px;text-indent:-9999px}
 #menu {width:633px;float:right;padding:0 0 0 40}
 #menu li {float:left;padding-left:3px}
 #menu li a {display:block;font-size:16px;color:#faf3ed;line-height:40px;padding:0 20px;height:44px;letter-spacing:-1px}
@@ -49,6 +49,9 @@ header {height:121px;padding-top:31px;width:100%;overflow:hidden}
 .slider .pagination a {display:block;width:17px;height:17px;text-indent:-9999px;background:url(../images/buttons.png) right 0 no-repeat}
 .slider .pagination a:hover, .slider .pagination .current a {background-position:left}
 /* content */
+img{
+	border: 5px solid black;
+}
 #content {padding-bottom:40px}
 #content2 {padding-bottom:31px}
 .pad_left1 {padding-left:30px}
